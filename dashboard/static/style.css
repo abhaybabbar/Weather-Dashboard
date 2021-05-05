@@ -1,0 +1,35 @@
+#sideform {
+    background: linear-gradient(45deg, white, #8893ff);
+}
+
+.btn, .input-city {
+    border-radius: 20px;
+}
+
+#sideform p {
+    font-size: 1.5rem;
+}
+
+.card {
+    background-color: transparent;
+}
+
+#dashboard_card {
+    background-image: url(weather.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+@media only screen and (min-width: 767px) {
+    #sideform {
+        min-height: 93.4vh;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

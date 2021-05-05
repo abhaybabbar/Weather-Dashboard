@@ -1,0 +1,11 @@
+<div class="py-4">
+    <p>What is Weather Like?</p>
+    <div>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.city_name }}
+            <button type="submit" class="btn btn-warning">Search</button>
+            <a type="button" class="btn btn-warning mx-2" href="{% url 'history' %}">History</a>
+        </form>
+    </div>
+</div>
